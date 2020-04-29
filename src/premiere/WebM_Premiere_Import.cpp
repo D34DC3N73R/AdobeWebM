@@ -1568,7 +1568,7 @@ SDKGetInfo8(
 						SDKFileInfo8->vidScale				= fps_num;
 						SDKFileInfo8->vidSampleSize			= fps_den;
 
-						SDKFileInfo8->vidInfo.alphaType		= alphaNone;
+						SDKFileInfo8->vidInfo.alphaType		= alphaBlackMatte;
 						
 						
 						if(pVideoTrack->GetWidth() == pVideoTrack->GetDisplayWidth() &&
